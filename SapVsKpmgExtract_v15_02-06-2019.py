@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# # Import
-
-# In[9]:
 
 
 import pandas as pd
@@ -25,9 +20,6 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
 
-# # SAP Pull
-
-# In[10]:
 
 
 def sap_pull(num_retry=3):
