@@ -1,3 +1,5 @@
+"""Set of classes that represent gas and electric cars."""
+
 class car:
     """A simple attempt to represent a car."""
     def __init__(self, make, model, year):
@@ -31,3 +33,7 @@ class car:
 
     def fill_gas_tank(self):
         self.amount_of_gas = 100
+
+
+
+    
